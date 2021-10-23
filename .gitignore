@@ -20,3 +20,4 @@ ClientCertificate.pem
 ClientPrivateKey.pem
 ClientPublicKey.pem
 mockserver_keystore.jks
+browsermob-core/src/main/resources/sslSupport/charles-ssl-proxying.p12
