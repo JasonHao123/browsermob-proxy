@@ -89,11 +89,11 @@ public class BrowserMobProxyServer implements BrowserMobProxy {
     private static final HarNameVersion HAR_CREATOR_VERSION = new HarNameVersion("BrowserMob Proxy", BrowserMobProxyUtil.getVersionString());
 
     /* Default MITM resources */
-    private static final String RSA_KEYSTORE_RESOURCE = "/sslSupport/charles-ssl-proxying.p12";
+    private static final String RSA_KEYSTORE_RESOURCE = "/sslSupport/ca-keystore-rsa.p12";
     private static final String EC_KEYSTORE_RESOURCE = "/sslSupport/ca-keystore-ec.p12";
     private static final String KEYSTORE_TYPE = "PKCS12";
-    private static final String KEYSTORE_PRIVATE_KEY_ALIAS = "charles";
-    private static final String KEYSTORE_PASSWORD = "cde34rfv";
+    private static final String KEYSTORE_PRIVATE_KEY_ALIAS = "key";
+    private static final String KEYSTORE_PASSWORD = "password";
 
     /**
      * The default pseudonym to use when adding the Via header to proxied requests.
